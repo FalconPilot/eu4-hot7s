@@ -1,0 +1,16 @@
+monarch_power = ADM
+
+ahead_of_time = {
+  administrative_efficiency = 0.1
+  global_tax_modifier = 0.05
+}
+
+# Tech 0 - Tribal administration
+technology = {
+  year = 0
+}
+
+# Tech 1 - House administration
+technology = {
+  year = 100
+}

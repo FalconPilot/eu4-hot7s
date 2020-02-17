@@ -1,0 +1,31 @@
+# ##############
+# Imperial House
+# ##############
+
+gov_imperial_house = {
+  icon = "crown"
+  allow_normal_conversion = yes
+  legacy_government = yes
+  valid_for_new_country = yes
+  valid_for_nation_designer = yes
+  nation_designer_cost = 0
+  dictatorship = yes
+  modifiers = {
+    max_states = 2
+    max_absolutism = 10
+  }
+
+  ai = {
+    factor = 1
+  }
+}
+
+# ################
+# Mercantile House
+# ################
+
+gov_mercantile_house = {
+  icon = "paper_with_seal"
+  allow_normal_conversion = yes
+  queen = yes
+}

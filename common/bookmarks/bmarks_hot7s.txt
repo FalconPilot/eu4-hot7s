@@ -1,0 +1,5 @@
+bookmark = {
+  name = "HOT7S_SCENARIO_NAME"
+  desc = "HOT7S_SCENARIO_DESC"
+  date = 100.1.1
+}

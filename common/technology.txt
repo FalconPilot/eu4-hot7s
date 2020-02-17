@@ -1,0 +1,42 @@
+groups = {
+  tech_aquila = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+
+  tech_acheron = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+
+  tech_draconis = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+
+  tech_olegton = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+
+  tech_nox = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+
+  tech_corto = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+
+  tech_engelfer = {
+    start_level = 1
+    start_cost_modifier = 0
+  }
+}
+
+tables = {
+  adm_tech = "technologies/hot7s_adm.txt"
+  dip_tech = "technologies/hot7s_dip.txt"
+  mil_tech = "technologies/hot7s_mil.txt"
+}

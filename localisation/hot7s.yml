@@ -1,0 +1,23 @@
+﻿l_english:
+  HOT7S_SCENARIO_NAME: "House of the 7th Star"
+  HOT7S_SCENARIO_DESC: "After a massive disappearance of mankind, a new world emerges..."
+
+  culture_aquila: "Aquilarian"
+  culture_aquila_imperial: "Mainland Imperialist"
+  culture_draconis: "Draconese"
+  culture_acheron: "Acheronian"
+  culture_engelfer: "Engelferian"
+  culture_corto: "Cortonese"
+  culture_nox: "Noxite"
+  culture_olegton: "Olegtonese"
+
+  tech_aquila: "Aquilarian"
+  tech_acheron: "Acheronian"
+  tech_draconis: "Draconis"
+  tech_olegton: "Olegtonese"
+  tech_nox: "Noxite"
+  tech_corto: "Cortonese"
+  tech_engelfer: "Engelferian"
+
+  aquilarian_legionary: "Aquilarian Legionary"
+  aquilarian_legionaryDESC: "The Aquila empire used legionaries to great extents for a very long time. A standard legion squadron is usually comprised of some Porcus shield bearers and human footsoldiers."

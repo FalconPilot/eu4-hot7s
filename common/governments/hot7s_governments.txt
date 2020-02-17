@@ -1,0 +1,15 @@
+govts_imperial_houses = {
+  basic_reform = imperial_house_mechanic
+  reform_levels = {
+    imperial_cult_vs_cultural_preservation = {
+      reforms = {
+        imperial_cult_reform
+        cultural_preservation_reform
+      }
+    }
+  }
+
+  legacy_government = {
+    gov_imperial_house
+  }
+}

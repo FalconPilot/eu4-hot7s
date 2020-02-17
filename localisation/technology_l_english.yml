@@ -1,0 +1,11 @@
+l_english:
+  adm_tech_cs_0_name: "Tribal administration"
+  adm_tech_cs_0_desc: "Individuals gathered together end up forming tribes with a similar goal in mind. This allows for some unity within a society."
+  adm_tech_cs_1_name: "Formal administration"
+  adm_tech_cs_1_desc: "Societies eventually evolved to more organized and civilized ways of thinking, abandoning the old ways to adopt centralized administrations."
+
+  mil_tech_cs_0_name: "Military training"
+  mil_tech_cs_0_desc: "Basic military training is necessary to make the difference between a civilian and an actual soldier."
+
+  mil_tech_cs_1_name: "Military infrastructures"
+  mil_tech_cs_1_desc: "The use of basic infrastructures like workshops, weapon deposits and military warehouses allowed for a much more optimized equipment dispatch system for the army."

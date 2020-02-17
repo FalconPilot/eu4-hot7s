@@ -1,0 +1,74 @@
+# ##############
+# Aquila Culture
+# ##############
+
+culture_aquila = {
+  graphical_culture = westerngfx
+
+  male_names = {
+    Julius Olivien Tulius Junius Maximus Albus Augustus Helios
+  }
+
+  female_names = {
+    Agrippa Aconia Antonia Aurelia Maxima Aelia
+  }
+
+  culture_aquila_imperial = {
+    primary = HAQ
+    dynasty_names = {
+      Caius Porcus Horacio Tiberis
+    }
+  }
+}
+
+# ################
+# Draconis Culture
+# ################
+
+culture_draconis = {
+  graphical_culture = easterngfx
+}
+
+# ###############
+# Acheron Culture
+# ###############
+
+culture_acheron = {
+  graphical_culture = muslimgfx
+
+  male_names = {
+    
+  }
+}
+
+# ################
+# Engelfer Culture
+# ################
+
+culture_engelfer = {
+  graphical_culture = westerngfx
+}
+
+# #############
+# Corto Culture
+# #############
+
+culture_corto = {
+  graphical_culture = easterngfx
+}
+
+# ###########
+# Nox Culture
+# ###########
+
+culture_nox = {
+  graphical_culture = asiangfx
+}
+
+# ###############
+# Olegton Culture
+# ###############
+
+culture_olegton = {
+  graphical_culture = westerngfx
+}

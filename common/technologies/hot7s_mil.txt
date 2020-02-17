@@ -1,0 +1,21 @@
+monarch_power = MIL
+
+ahead_of_time = {
+
+}
+
+# Tech 0 - Military training
+technology = {
+  year = 0
+  sprite_level = 1
+  infantry_fire = 0.2
+  infantry_shock = 0.2
+  cavalry_shock = 0.5
+  land_morale = 1.0
+}
+
+# Tech 1 - Military infrastructures
+technology = {
+  year = 90
+  enable = aquilarian_legionary
+}

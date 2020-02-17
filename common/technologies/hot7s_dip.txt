@@ -1,0 +1,16 @@
+monarch_power = DIP
+
+ahead_of_time = {
+
+}
+
+# TECH 0 - Sailing
+technology = {
+  year = 0
+  may_fabricate_claims = yes
+}
+
+# TECH 1 - International trade
+technology = {
+
+}
