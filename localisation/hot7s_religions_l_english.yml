@@ -1,0 +1,22 @@
+﻿l_english:
+  agnostic_group: "Agnosticism"
+  agnostic_atheism: "Atheism"
+  agnostic_reformism: "Reformism"
+
+  agnostic_rebels_demand: "Convert $COUNTRYNAME$"
+  agnostic_rebels_demand_desc: "These revolted $RELIGION$ fanatics demand that we abandon what they call «foolish and delusional beliefs» to embrace a state where no religion shall prevail over another."
+  agnostic_rebels_title: "Agnostic"
+  agnostic_rebels_name: "$RELIGION$ Fanatics"
+  agnostic_rebels_desc: "Agnostic fanatics tend to take arms and fight any religious influence in their homeland."
+  agnostic_rebels_army: "Defenders of $RELIGION$"
+
+  naturalist_group: "Naturalism"
+  naturalist_elder_cult: "Elder Cult"
+  naturalist_scholastic_sorcery: "Scholastic Sorcery"
+
+  naturalist_rebels_demand: "Convert $COUNTRYNAME$"
+  naturalist_rebels_demand_desc: "The $RELIGION$ has been around from quite a lot of time, and they wish to drive foreign beliefs out."
+  naturalist_rebels_title: "Naturalist"
+  naturalist_rebels_name: "$RELIGION$ Defenders"
+  naturalist_rebels_desc: "Naturalist believers tend to get uncomfortable with foreign beliefs and end up trying to keep their cult intact to preserve their ancestral knowledge."
+  naturalist_rebels_army: "$RELIGION$ Army"

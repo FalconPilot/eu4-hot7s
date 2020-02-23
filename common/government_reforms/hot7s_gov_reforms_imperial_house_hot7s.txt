@@ -1,0 +1,110 @@
+# ##############################
+# Imperial House-type Government
+# ##############################
+
+imperial_house_mechanic = {
+  monarchy = yes
+  queen = yes
+  heir = yes
+  basic_reform = yes
+  valid_for_nation_designer = no
+}
+
+# 1. Imperial Cult
+# 2. Cultural Preservation
+
+imperial_cult_reform = {
+  icon = "chieftain"
+  allow_normal_conversion = yes
+  legacy_equivalent = gov_imperial_house
+  valid_for_nation_designer = yes
+  nation_designer_cost = 0
+  modifiers = {
+    stability_cost_modifier = -0.1
+    global_autonomy = -0.05
+  }
+}
+
+cultural_preservation_reform = {
+  icon = "monks"
+  allow_normal_conversion = yes
+  legacy_equivalent = gov_imperial_house
+  valid_for_nation_designer = yes
+  nation_designer_cost = 0
+  modifiers = {
+    promote_culture_cost = -0.2
+    num_accepted_cultures = 1
+  }
+}
+
+# 1. Imperial Church
+# 2. Global power projection
+# 3. Provincial administration
+
+imperial_church_reform = {
+  icon = "church"
+  allow_normal_conversion = yes
+  modifiers = {
+    missionary_maintenance_cost = -0.1
+    max_absolutism = 10
+  }
+}
+
+global_power_projection_reform = {
+  icon = "map"
+  allow_normal_conversion = yes
+  modifiers = {
+    prestige = 0.5
+    global_autonomy = -0.05
+  }
+}
+
+provincial_administation_reform = {
+  icon = "judge"
+  allow_normal_conversion = yes
+  modifiers = {
+    max_states = 2
+    promote_culture_cost = -0.1
+    num_accepted_cultures = 1
+    max_absolutism = -10
+  }
+}
+
+# 1. Motion of Tolerance
+# 2. Motion of Purity
+# 3. Motion of Neutrality
+
+motion_of_tolerance_reform = {
+  icon = "man_and_children"
+  allow_normal_conversion = yes
+  modifiers = {
+    tolerance_heretic = 2
+    tolerance_heathen = 2
+  }
+  
+  potential = {
+    NOT = {
+      religion = agnostic_atheism
+    }
+  }
+}
+
+motion_of_purity_reform = {
+  icon = "rioting_burning"
+  allow_normal_conversion = yes
+  modifiers = {
+    tolerance_own = 3
+    tolerance_heretic = -1
+    tolerance_heathen = -1
+  }
+}
+
+motion_of_neutrality_reform = {
+  icon = "paper_with_seal"
+  allow_normal_conversion = yes
+  modifiers = {
+    tolerance_own = 1
+    tolerance_heretic = 1
+    tolerance_heathen = 1
+  }
+}

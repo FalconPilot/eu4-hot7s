@@ -1,0 +1,76 @@
+# ##################
+# Agnostic religions
+# ##################
+
+agnostic_group = {
+  defender_of_faith = no
+  flags_with_emblem_percentage = 0
+
+  # Reformism
+  agnostic_reformism = {
+    icon = 22
+    heretic = { REFORMISTS }
+    country = {
+      tolerance_own = 1
+      tolerance_heretic = 0
+      tolerance_heathen = 0
+    }
+    country_as_secondary = {
+      global_unrest = -1
+      num_accepted_cultures = 1
+      promote_culture_cost = -0.2
+    }
+  }
+
+  # Atheism
+  agnostic_atheism = {
+    icon = 22
+    heretic = { ATHEISTS }
+    country = {
+      tolerance_own = 2
+      tolerance_heretic = -1
+      tolerance_heathen = -5
+    }
+    country_as_secondary = {
+      idea_cost = -0.1
+      global_institution_spread = 0.25
+    }
+  }
+}
+
+# ####################
+# Naturalist religions
+# ####################
+
+naturalist_group = {
+  defender_of_faith = no
+
+  # Elder cult
+  naturalist_elder_cult = {
+    icon = 22
+    heretic = { SORCERERS }
+    country = {
+      tolerance_own = 3
+      tolerance_heretic = -4
+      tolerance_heathen = -2
+    }
+    country_as_secondary = {
+
+    }
+  }
+
+  # Scholastic sorcery
+  naturalist_scholastic_sorcery = {
+    icon = 22
+    heretic = { ELDERCULT }
+    country = {
+      tolerance_own = 0
+      tolerance_heretic = 0
+      tolerance_heathen = -2
+    }
+    country_as_secondary = {
+      technology_cost = -0.05
+      advisor_cost = -0.1
+    }
+  }
+}

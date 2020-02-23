@@ -28,4 +28,6 @@ gov_mercantile_house = {
   icon = "paper_with_seal"
   allow_normal_conversion = yes
   queen = yes
+  heir = yes
+  legacy_government = yes
 }

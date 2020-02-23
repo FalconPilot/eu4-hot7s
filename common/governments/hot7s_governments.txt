@@ -7,6 +7,20 @@ govts_imperial_houses = {
         cultural_preservation_reform
       }
     }
+
+    imperial_administration_reform = {
+      reforms = {
+        imperial_church_reform
+        global_power_projection_reform
+        provincial_administation_reform
+      }
+    }
+
+    imperial_religious_reform = {
+      motion_of_tolerance_reform
+      motion_of_neutrality_reform
+      motion_of_purity_reform
+    }
   }
 
   legacy_government = {
